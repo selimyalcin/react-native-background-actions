@@ -1,5 +1,5 @@
 {
-  "name": "react-native-background-actions",
+  "name": "react-native-background-actions-immutable",
   "version": "3.0.1",
   "description": "React Native background service library for running background tasks forever in Android & iOS",
   "keywords": [
@@ -35,11 +35,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rapsssito/react-native-background-actions.git"
+    "url": "https://github:selimyalcin/react-native-background-actions.git"
   },
   "funding": {
     "type": "individual",
-    "url": "https://github.com/sponsors/Rapsssito"
+    "url": "https://github:selimyalcin"
   },
   "author": {
     "name": "Rapsssito",
