@@ -42,7 +42,7 @@ final public class RNBackgroundActionsTask extends HeadlessJsTaskService {
         }
         final PendingIntent contentIntent;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            contentIntent = PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_MUTABLE);
+            contentIntent = PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_IMMUTABLE);
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             contentIntent = PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
         } else {
